@@ -1,0 +1,6 @@
+
+2026-10-28 11:00:00 INFO ReportService Report generation started
+2026-10-28 11:00:01 WARN ReportService Unexpected response format
+2026-10-28 11:00:02 ERROR ReportService PDF rendering failed
+2026-10-28 11:00:03 ERROR ReportService Font resource missing
+2026-10-28 11:00:04 ERROR APIGateway HTTP 500 returned

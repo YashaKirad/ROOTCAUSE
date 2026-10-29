@@ -1,0 +1,6 @@
+
+2026-10-28 10:30:06 ERROR OrderService Order processing failed
+2026-10-28 10:30:03 ERROR Database Connection timeout
+2026-10-28 10:30:01 WARN Database Connection pool exhausted
+2026-10-28 10:30:04 ERROR PaymentService Database query failed
+2026-10-28 10:30:00 INFO OrderService Order created

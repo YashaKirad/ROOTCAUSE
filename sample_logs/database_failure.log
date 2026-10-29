@@ -1,0 +1,16 @@
+
+2026-10-28 10:29:55 INFO AuthService User authentication successful
+2026-10-28 10:29:57 INFO OrderService Order #9821 created
+2026-10-28 10:29:59 INFO PaymentService Payment initiated for order #9821
+2026-10-28 10:30:00 INFO Database Active connections: 85/100
+2026-10-28 10:30:01 WARN Database Connection pool usage reached 95%
+2026-10-28 10:30:02 WARN Database Connection pool exhausted
+2026-10-28 10:30:03 ERROR Database Connection timeout while acquiring connection
+2026-10-28 10:30:04 ERROR PaymentService Database query failed: connection timeout
+2026-10-28 10:30:05 ERROR PaymentService Payment transaction failed for order #9821
+2026-10-28 10:30:06 ERROR OrderService Unable to complete order #9821
+2026-10-28 10:30:07 ERROR APIGateway HTTP 500 returned for POST /orders
+2026-10-28 10:30:08 WARN OrderService Retrying order #9821
+2026-10-28 10:30:09 ERROR Database Connection timeout while acquiring connection
+2026-10-28 10:30:10 ERROR OrderService Order #9821 retry failed
+2026-10-28 10:30:12 INFO MonitoringService Incident alert triggered

@@ -1,0 +1,28 @@
+
+2026-10-28 14:20:00 INFO WebChatbot Incoming question received for user role student
+2026-10-28 14:20:01 INFO ContextService Selected student-specific website context
+2026-10-28 14:20:02 INFO CacheService Checking cached response for normalized question
+2026-10-28 14:20:02 INFO CacheService Cache miss for question key q_1042
+2026-10-28 14:20:03 INFO ResponseService Starting context-grounded response generation
+2026-10-28 14:20:05 INFO ResponseService Generated response for question key q_1042
+2026-10-28 14:20:06 INFO CacheService Stored response for question key q_1042
+2026-10-28 14:20:07 INFO WebChatbot Returned response to student
+2026-10-28 14:21:00 INFO WebChatbot Incoming question received for user role professor
+2026-10-28 14:21:01 INFO ContextService Selected professor-specific website context
+2026-10-28 14:21:02 INFO CacheService Cache miss for question key q_1043
+2026-10-28 14:21:03 INFO ResponseService Starting context-grounded response generation
+2026-10-28 14:21:08 WARN ResponseService Response generation latency exceeded 5000 ms
+2026-10-28 14:21:12 WARN ResponseService Downstream response request approaching timeout
+2026-10-28 14:21:15 ERROR ResponseService Downstream API timeout during response generation
+2026-10-28 14:21:16 ERROR WebChatbot Unable to return answer for question key q_1043
+2026-10-28 14:21:17 INFO WebChatbot Retrying request for question key q_1043
+2026-10-28 14:21:18 INFO CacheService Cache miss for question key q_1043
+2026-10-28 14:21:19 INFO ResponseService Retrying context-grounded response generation
+2026-10-28 14:21:25 WARN ResponseService Retry latency exceeded 5000 ms
+2026-10-28 14:21:30 ERROR ResponseService Downstream API timeout during retry
+2026-10-28 14:21:31 ERROR WebChatbot Request failed after retry for question key q_1043
+2026-10-28 14:21:32 WARN MonitoringService Elevated response generation failure rate detected
+2026-10-28 14:22:00 INFO WebChatbot Incoming repeated question for user role student
+2026-10-28 14:22:01 INFO CacheService Cache hit for question key q_1042
+2026-10-28 14:22:02 INFO WebChatbot Returned cached response to student
+2026-10-28 14:22:10 WARN MonitoringService Downstream response generation remains degraded

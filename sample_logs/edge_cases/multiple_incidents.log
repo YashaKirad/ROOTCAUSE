@@ -1,0 +1,8 @@
+
+2026-10-28 12:00:00 INFO OrderService Order processing started
+2026-10-28 12:00:01 WARN Database Connection pool exhausted
+2026-10-28 12:00:02 ERROR Database Connection timeout
+2026-10-28 12:00:03 ERROR OrderService Order processing failed
+2026-10-28 12:00:20 INFO ImageService Image processing started
+2026-10-28 12:00:21 ERROR ImageService Out of memory
+2026-10-28 12:00:22 ERROR ImageService Image processing failed

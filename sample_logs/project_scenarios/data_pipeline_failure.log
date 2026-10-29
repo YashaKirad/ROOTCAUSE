@@ -1,0 +1,28 @@
+
+2026-10-28 09:00:00 INFO PipelineRunner Starting NLP annotation preparation batch batch_20261028
+2026-10-28 09:00:01 INFO DataLoader Loading Reddit research records from local input
+2026-10-28 09:00:03 INFO DataLoader Loaded 2500 source records for processing
+2026-10-28 09:00:04 INFO SchemaValidator Checking required fields record_id title body
+2026-10-28 09:00:05 INFO SchemaValidator Initial schema validation started
+2026-10-28 09:00:06 INFO AnnotationMapper Preparing separate title and body sentiment fields
+2026-10-28 09:00:07 INFO AnnotationMapper Preparing dominant emotion annotation fields
+2026-10-28 09:00:09 INFO PipelineRunner Processing annotation batch 1 of 5
+2026-10-28 09:00:12 INFO SchemaValidator Batch 1 passed required-field checks
+2026-10-28 09:00:14 INFO PipelineRunner Completed annotation batch 1 of 5
+2026-10-28 09:00:15 INFO PipelineRunner Processing annotation batch 2 of 5
+2026-10-28 09:00:18 WARN SchemaValidator Missing body text detected in record r_0831
+2026-10-28 09:00:19 WARN SchemaValidator Duplicate record identifier detected for r_0840
+2026-10-28 09:00:20 INFO DataCleaner Flagged invalid records for review
+2026-10-28 09:00:22 INFO PipelineRunner Completed annotation batch 2 with validation warnings
+2026-10-28 09:00:23 INFO PipelineRunner Processing annotation batch 3 of 5
+2026-10-28 09:00:26 WARN AnnotationMapper Unexpected emotion label value detected in record r_1204
+2026-10-28 09:00:27 ERROR SchemaValidator Annotation schema mismatch in batch 3
+2026-10-28 09:00:28 ERROR AnnotationMapper Cannot map unsupported emotion label to expected schema
+2026-10-28 09:00:29 ERROR PipelineRunner Batch 3 processing failed validation checks
+2026-10-28 09:00:30 WARN PipelineRunner Retrying batch 3 after excluding flagged records
+2026-10-28 09:00:33 INFO DataCleaner Rechecking flagged record fields
+2026-10-28 09:00:35 ERROR SchemaValidator Annotation schema mismatch persists in batch 3
+2026-10-28 09:00:36 ERROR PipelineRunner Retry failed for batch 3
+2026-10-28 09:00:37 WARN PipelineRunner Remaining batches not processed
+2026-10-28 09:00:38 ERROR PipelineRunner Output dataset not finalized due to validation failure
+2026-10-28 09:00:39 INFO MonitoringService Batch failure recorded for manual review

@@ -1,0 +1,7 @@
+
+This is not a valid application log
+ERROR something failed
+2026-10-28 UNKNOWN Database connection issue
+2026-10-28 10:30:01 INFO
+random text without timestamp or severity
+2026-10-28 10:30:02 ERROR Database Connection timeout
